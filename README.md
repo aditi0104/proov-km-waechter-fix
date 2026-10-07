@@ -17,7 +17,7 @@ You do not need Python installed to do this task — your AI agent can run all o
 you. If you do want to run it yourself, you need `python3`:
 
 ```
-pip install pytest pandas
+pip install pytest pandas   # Python 3.10 or newer
 pytest          # the test suite (currently red)
 python verify.py  # your acceptance check: is the job actually done?
 ```
